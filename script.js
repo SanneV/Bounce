@@ -4,11 +4,11 @@
  * hier staan alle variabelen waarvan gebruik wordt gemaakt
  */
 
-var x1 = 80;
-var x2 = 80;
-var x3 = 80;
-var x4 = 80;
-var x5 = 80;
+var x1 = 25;
+var x2 = 25;
+var x3 = 25;
+var x4 = 25;
+var x5 = 25;
 
 var y1 = 0;
 var y2 = 0;
@@ -51,17 +51,17 @@ var balletje1 = function(){
   y1 = y1 + speedy1;
   x1 = x1 + speedx1;
 
-  if(y1 > 720){
+  if(y1 > 695){
     speedy1 = -5;
   }
-  if(y1 < 0){
+  if(y1 < 25){
     speedy1 = 5;
     }
 
-  if(x1 > 1280){
+  if(x1 > 1255){
   speedx1 = -5;
     }
-  if(x1 < 0){
+  if(x1 < 25){
   speedx1 = 5;
   }
 
@@ -74,17 +74,17 @@ var balletje2 = function(){
   y2 = y2 + speedy2;
   x2 = x2 + speedx2;
 
-  if(y2 > 720){
+  if(y2 > 695){
     speedy2 = -4;
   }
-  if(y2 < 0){
+  if(y2 < 25){
     speedy2 = 4;
   }
 
-  if(x2 > 1280){
+  if(x2 > 1255){
   speedx2 = -4;
   }
-  if(x2 < 0){
+  if(x2 < 25){
   speedx2 = 4;
   }
 
@@ -97,17 +97,17 @@ var balletje3 = function(){
   y3 = y3 + speedy3;
   x3 = x3 + speedx3;
 
-  if(y3 > 720){
+  if(y3 > 695){
   speedy3 = -3;
   }
-  if(y3 < 0){
+  if(y3 < 25){
   speedy3 = 3;
   }
 
-  if(x3 > 1280){
+  if(x3 > 1255){
   speedx3 = -3;
   }
-  if(x3 < 0){
+  if(x3 < 25){
   speedx3 = 3;
   }
 
@@ -120,17 +120,17 @@ var balletje4 = function(){
   y4 = y4 + speedy4;
   x4 = x4 + speedx4;
 
-  if(y4 > 720){
+  if(y4 > 695){
   speedy4 = -2;
   }
-  if(y4 < 0){
+  if(y4 < 25){
   speedy4 = 2;
   }
 
-  if(x4 > 1280){
+  if(x4 > 1255){
   speedx4 = -2;
   }
-  if(x4 < 0){
+  if(x4 < 25){
   speedx4 = 2;
   }
 
@@ -143,17 +143,17 @@ var balletje5 = function(){
   y5 = y5 + speedy5;
   x5 = x5 + speedx5;
 
-  if(y5 > 720){
+  if(y5 > 695){
   speedy5 = -1;
   }
-  if(y5 < 0){
+  if(y5 < 25){
   speedy5 = 1;
   }
 
-  if(x5 > 1280){
+  if(x5 > 1255){
   speedx5 = -1;
   }
-  if(x5 < 0){
+  if(x5 < 25){
   speedx5 = 1;
   }
 
