@@ -4,7 +4,7 @@
  * hier staan alle variabelen waarvan gebruik wordt gemaakt
  */
 
-var x = [25, 25, 25, 25, 25];
+var x = [0, 0, 0, 0, 0];
 var y = [0, 0, 0, 0, 0];
 var speedX = [5, 4, 3, 2, 1];
 var speedY = [5, 4, 3, 2, 1];
