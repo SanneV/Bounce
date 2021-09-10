@@ -4,8 +4,8 @@
  * hier staan alle variabelen waarvan gebruik wordt gemaakt
  */
 
-var x = [0, 0, 0, 0, 0];
-var y = [0, 0, 0, 0, 0];
+var x = [25, 25, 25, 25, 25];
+var y = [25, 25, 25, 25, 25];
 var speedX = [5, 4, 3, 2, 1];
 var speedY = [5, 4, 3, 2, 1];
 
@@ -32,20 +32,12 @@ var balletje1 = function(){
   y[0] = y[0] + speedY[0];
   x[0] = x[0] + speedX[0];
 
-  if(y[0] > 695){
-    speedY[0] = -5;
+  if(y[0] > 695 || y[0] < 25){
+    speedY[0] = speedY[0] * -1;
   }
-  if(y[0] < 25){
-    speedY[0] = 5;
+  if(x[0] > 1255 || x[0] < 25){
+    speedX[0] = speedX[0] * -1;
     }
-
-  if(x[0] > 1255){
-  speedX[0] = -5;
-    }
-  if(x[0] < 25){
-  speedX[0] = 5;
-  }
-
 }
 
 var balletje2 = function(){
@@ -55,19 +47,12 @@ var balletje2 = function(){
   y[1] = y[1] + speedY[1];
   x[1] = x[1] + speedX[1];
 
-  if(y[1] > 695){
-    speedY[1] = -4;
+  if(y[1] > 695 || y[1] < 25){
+    speedY[1] = speedY[1] * -1;
   }
-  if(y[1] < 25){
-    speedY[1] = 4;
-  }
-
-  if(x[1] > 1255){
-  speedX[1] = -4;
-  }
-  if(x[1] < 25){
-  speedX[1] = 4;
-  }
+  if(x[1] > 1255 || x[1] < 25){
+    speedX[1] = speedX[1] * -1;
+    }
 
 }
 
@@ -78,19 +63,12 @@ var balletje3 = function(){
   y[2] = y[2] + speedY[2];
   x[2] = x[2] + speedX[2];
 
-  if(y[2] > 695){
-  speedY[2] = -3;
+  if(y[2] > 695 || y[2] < 25){
+    speedY[2] = speedY[2] * -1;
   }
-  if(y[2] < 25){
-  speedY[2] = 3;
-  }
-
-  if(x[2] > 1255){
-  speedX[2] = -3;
-  }
-  if(x[2] < 25){
-  speedX[2] = 3;
-  }
+  if(x[2] > 1255 || x[2] < 25){
+    speedX[2] = speedX[2] * -1;
+    }
 
 }
 
@@ -101,19 +79,12 @@ var balletje4 = function(){
   y[3] = y[3] + speedY[3];
   x[3] = x[3] + speedX[3];
 
-  if(y[3] > 695){
-  speedY[3] = -2;
+  if(y[3] > 695 || y[3] < 25){
+    speedY[3] = speedY[3] * -1;
   }
-  if(y[3] < 25){
-  speedY[3] = 2;
-  }
-
-  if(x[3] > 1255){
-  speedX[3] = -2;
-  }
-  if(x[3] < 25){
-  speedX[3] = 2;
-  }
+  if(x[3] > 1255 || x[3] < 25){
+    speedX[3] = speedX[3] * -1;
+    }
 
 }
 
@@ -124,19 +95,12 @@ var balletje5 = function(){
   y[4] = y[4] + speedY[4];
   x[4] = x[4] + speedX[4];
 
-  if(y[4] > 695){
-  speedY[4] = -1;
+  if(y[4] > 695 || y[4] < 25){
+    speedY[4] = speedY[4] * -1;
   }
-  if(y[4] < 25){
-  speedY[4] = 1;
-  }
-
-  if(x[4] > 1255){
-  speedX[4] = -1;
-  }
-  if(x[4] < 25){
-  speedX[4] = 1;
-  }
+  if(x[4] > 1255 || x[4] < 25){
+    speedX[4] = speedX[4] * -1;
+    }
 
 }
 
