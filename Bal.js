@@ -7,8 +7,8 @@ speedY;
 constructor(_x, _y) {
     this.x = _x;
     this.y = _y;
-    speedX = 3;
-    speedY = -2;
+    this.speedX = 3;
+    this.speedY = -2;
 }
 
 show() {
@@ -16,7 +16,7 @@ show() {
     ellipse(this.x, this.y, 50, 50);
 }
 
-update(){
+update() {
     this.x = this.x + this.speedX;
     this.y = this.y + this.speedY;
 
